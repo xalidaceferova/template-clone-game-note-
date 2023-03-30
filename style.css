@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 90px;
+    
+    display:flex;
+    background-color: black;
+    color: white;
+}
+.icon{
+   
+    width: 500px;
+    height: 90px;
+    
+    margin-left: auto;
+    font-size: 20px;
+    position: relative;
+
+}
+.bi-gear-fill{
+    position: absolute;
+    left: 0;
+    border-left: 2px solid lightgrey;
+}
+.bi-heart-fill{
+    position: absolute;
+    left: 100px;
+    border-left: 2px solid lightgrey;
+}
+.bi-cart-fill{
+    position: absolute;
+    left: 200px;
+    border-left: 2px solid lightgrey;
+}
+.bi-box-arrow-right{
+    position: absolute;
+    left: 300px;
+    border-left: 2px solid lightgrey;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    
+    background-color: rgb(30, 179, 30);
+    
+   
+}
+.nav__ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav__li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+}
+input{
+width: 230px;
+height: 50px;
+border-radius: 20px;
+
+}
+input[placeholder="Mehsul ve ya brend axtar"]{
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h2::before{
+    content:"";
+    display: inline-block;
+    width: 500px;
+    height: 1px;
+    background-color:lightgrey;
+    margin-top: 30px;
+    
+
+}
+h2::after{
+    content:"";
+    display: inline-block;
+    width: 500px;
+    height: 1px;
+    background-color:lightgrey;
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
